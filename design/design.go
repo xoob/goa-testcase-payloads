@@ -35,6 +35,7 @@ var ExtendedGreeting = Type("ExtendedGreeting", func() {
 
 	Attribute("id")
 	Attribute("message")
+	Attribute("parent_optional")
 
 	Attribute("active", Boolean, func() {
 		Description("A required boolean field in the child type.")
